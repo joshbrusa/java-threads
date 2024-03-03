@@ -16,7 +16,7 @@ class BankAccount {
     }
 
     /**
-     * Deposits some amount.
+     * Deposits some amount. Locked code block.
      */
     public void deposit(double amount) {
         lock.lock();
@@ -29,7 +29,7 @@ class BankAccount {
     }
 
     /**
-     * Withdraws some amount.
+     * Withdraws some amount. Locked code block.
      */
     public void withdraw(double amount) {
         lock.lock();
