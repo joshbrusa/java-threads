@@ -8,8 +8,8 @@ public class Main {
         // create multiple threads for deposit and withdrawal transactions
         DepositThread depositThread1 = new DepositThread(bankAccount, 100);
         DepositThread depositThread2 = new DepositThread(bankAccount, 100);
-        WithdrawThread withdrawThread1 = new WithdrawThread(bankAccount, 100);
-        WithdrawThread withdrawThread2 = new WithdrawThread(bankAccount, 200);
+        WithdrawThread withdrawThread1 = new WithdrawThread(bankAccount, 150);
+        WithdrawThread withdrawThread2 = new WithdrawThread(bankAccount, 150);
 
         // start the threads
         depositThread1.run();
