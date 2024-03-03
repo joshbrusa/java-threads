@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  run:
+    cmds:
+      - javac -d bin src/Main.java
+      - java -cp bin src.Main
